@@ -35,7 +35,6 @@ Testbench architecture is also provided and includes:
 - Checker
 - Scoreboard
 
-![Testbench Architecture](testbench_architecture.png)
 
 ---
 
@@ -44,9 +43,9 @@ Testbench architecture is also provided and includes:
 | File | Description |
 |------|-------------|
 | `design_5.v` | Verilog source code of the ALU |
-| `alu_tb.v` | Testbench for simulation |
+| `alu_tb_1.v` | Testbench for simulation |
 | `ALU_DOCUMENT.pdf` | Full documentation with design, working, and future improvements |
-| `testbench_architecture.png` | Diagram of the testbench structure |
+| `Test_Bench_Architectre.png` | Diagram of the testbench structure |
 | `README.md` | Project description |
 
 ---
@@ -54,7 +53,7 @@ Testbench architecture is also provided and includes:
 ## 🛠️ Simulation & Verification
 
 - Exhaustive testbench to validate all operations
-- Simulated using [QuestaSim/ModelSim]
+- Simulated using [QuestaSim]
 - Code coverage and waveform analysis confirm correctness
 - Handles edge cases and invalid conditions
 
